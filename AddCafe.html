@@ -1,0 +1,85 @@
+
+<!DOCTYPE html > 
+
+
+<html>
+<head>
+<meta charset = "utf-8">
+<title> Add Cafe </title>
+<link rel="stylesheet" type="text/css" href="Style2.css">
+
+
+<style type = "text/css"> 
+
+h2{
+
+text-align: center;
+position:  absolute ;
+top:38%;
+left: 20%;
+font-family: 'EB Garamond';
+
+}
+
+
+
+
+
+</style>
+</head> 
+
+<body> 
+ <div class="logo"></div>
+ <div class ="floated3">
+<article>
+<nav >Add Cafe 
+<ul style="list-style: none;">
+<li><a style="color:black;" href="AdminControlPanel.html">Admin Control Panel</a></li>
+<li><a style="color:black;" href="Edit1.php"> Edit Cafe  </a></li>
+<li><a style="color:black;" href="delete.php">Delete Page </a></li>
+</ul>
+</nav>
+</article>
+</div>
+
+
+<form action ="AddCafe.php"method= "post">
+<h2> Add Café </h2>
+
+<div class="name"> <label >  Café name :
+<input type ="text" name= "Name" id = "Name" placeholder = "Café name "></lable> </div>
+
+
+<div class="Description"> <label> Description :<br><br> <textarea name = "description" id = "description" rows = "10" cols = "40" >
+
+Description here .. </textarea ></lable> </div>
+
+
+
+<!--<div class="ogo"><lable> Logo :
+ <input type ="image" name ="logo" id = "logo" >  </lable> </div>
+-->
+
+      <div class="ogo">Logo: <form action="upload.php" method="post">
+        <input  type="file" name="file1" id="file"/>
+
+</div>
+
+
+<!-- <label for="field3">
+  <span>Enter URL Logo:</span><input type="text" name="Logo" required="true" />
+  </label>
+-->
+
+<input type="submit" value="Add" class="button" />
+<input type="submit" value="Cancel" class="button2" />
+</form>
+</body>
+</html>
+
+
+<!-- <h2><lable> Café name : 
+<input type ="text" id = "Café name" placeholder = "Jolt ">
+</lable> </h2>
+
+--> 

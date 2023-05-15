@@ -1,0 +1,235 @@
+
+
+
+
+
+body {
+
+  background: url("Images/Background1.png") ;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+background-size: 100% 100%;
+
+}
+
+
+
+
+header.ab {
+	height: 100%;
+ 	 width: 100%;
+ 	 padding: 30px;
+ 	 text-align: right;
+	  color:#D5CF8D; 
+	  font-size: 15px;
+	
+	}
+
+
+header {
+	height: 100%;
+ 	 width: 100%;
+ 	 padding: 30px;
+ 	 text-align: right;
+	  color:#D5CF8D; 
+	  font-size: 30px;
+	
+	}
+.search-form input {
+
+  height: 6%;
+  width: 40%;
+  padding: 0 1.2rem;
+  font-size: 1.6rem;
+  color: #222;
+  text-transform: none;
+position:absolute; 
+left:31%; 
+top:32%;
+}
+
+
+.search-form2 input {
+  height: 5%;
+
+  width:35%;
+  padding: 0 1.2rem;
+  font-size: 1.6rem;
+  color: #222;
+  text-transform: none;
+   left: 20%;
+  top: 12%;
+position: absolute ;
+	
+}
+.search-form3 input {
+  height: 3%;
+  width:15%;
+  padding: 0 1.2rem;
+  font-size: 0.8rem;
+  color: #222;
+  text-transform: none;
+   left: 15%;
+  top: 90%;
+position: absolute ;
+	
+}
+
+table, th, td {
+  border: 1px solid   black;
+  border-collapse: collapse;
+}
+tr{
+  border: 1px hidden  black;
+  border-collapse: collapse;
+
+}
+
+
+
+.vl {
+  border-left: 6px solid ;
+  height: 400px;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+}
+
+
+.vl2 {
+  border-left: 6px solid ;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+
+}
+.vl3 {
+  border-left: 1px solid ;
+  height: 20% ;
+  position: absolute;
+  left 20%;
+  top: 40%;
+color: black;
+}
+
+
+nav{ font-weight:bold;
+color:black;
+border:2px solid #D5CF8D;
+text-align:center;
+width: 10em;
+background-color:#D5CF8D;}
+nav ul{ display: none;
+list-stayle: none;
+margin:0;
+padding:0;}
+nav:hover ul{ display:block;}
+
+nav ul li{ border-top: 2px solid #D5CF8D;
+background-color:white;
+width;10em;
+color:black;}
+nav ul li :hover{background-color:#D5CF8D;}	
+a{ text-decoration:none;}
+
+
+
+
+.floated3{background-color:#D5CF8D;
+padding: .2em;
+margin-top:0em;
+float: right;
+width:15% ;
+hight:10%; 
+top : 3%; 
+left : 90%;
+  position: absolute;
+}
+
+
+
+	
+	.logo {
+  background-image: url("Images/logo.png");
+    background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 350px;
+  height: 350px;
+  left: 4%;
+  top: 30%;
+position: absolute ;
+}
+	.logo2 {
+  background-image: url("Images/logo.png");
+    background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 300px;
+  height: 300px;
+  left: 60%;
+  top: 37%;
+position: absolute ;
+}
+
+.vl {
+  border-left: 6px solid ;
+  height: 400px;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+
+
+}
+.vl3 {
+
+  height: 300px;
+  position: absolute;
+  left: 44%;
+  top: 44%;
+  
+
+}
+.vl5 {
+
+  height: 300px;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+  
+
+}
+
+
+.button { 
+height: 30px; 
+width: 70px; 
+background :#D5CF8D;
+text-align: center;
+position:  absolute ;
+top:90%;
+left: 65%;
+}
+.button2 { 
+height: 25px; 
+width: 55px; 
+background :#D5CF8D;
+text-align: center;
+position:  absolute ;
+top:90%;
+left: 35%;
+}
+	
+
+footer {
+	 background-image: url(Images/H2.png);/*Background*/
+	  color: red;
+	  padding: 40px; 
+ 	 text-align: center; /* Center text*/
+	clear:left
+ 	}
+	
+
+
